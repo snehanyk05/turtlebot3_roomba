@@ -36,12 +36,13 @@ The following dependencies are required to run this package:
 
 ## Standard install via command-line
 ```
+To get ros bag go to link https://drive.google.com/drive/folders/1tVdfdSckptL4wk8xpPKnQuKuGyoIfCJk?usp=sharing and put it in results folder
+
 cd <<Your_catkin_workspace>>/src
-mkdir beginner_tutorials
-cd beginner_tutorials
-git clone --recursive https://github.com/snehanyk05/beginner_tutorials
-cd ../..
+git clone --recursive https://github.com/snehanyk05/turtlebot3_roomba.git
+cd ..
 catkin_make
+
 
 ```
 
